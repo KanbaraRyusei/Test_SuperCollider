@@ -9,8 +9,9 @@ public class SuperColliderBase : MonoBehaviour, ISuperCollider
 
     [SerializeField]
     protected Vector3 _center;
-
+    
     [SerializeField]
+    [Header("Gizmo‚ÌF")]
     protected Color _color = Color.green;
 
     protected void OnEnable()
